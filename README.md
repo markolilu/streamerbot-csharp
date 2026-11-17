@@ -25,6 +25,7 @@ Files and classes are named after the Streamer.bot action they belong to, e.g. `
 ### Requirements
 
 - [Streamer.bot](https://streamer.bot) installed (Windows)
+- [Streamer.bot C# Documentation](https://docs.streamer.bot/api/csharp) for context of code and interactions within Streamer.bot Actions/Sub-Actions
 - [VS Code](https://code.visualstudio.com/) with the C# extension and the Streamer.bot C# extension
 - [.NET SDK](https://dotnet.microsoft.com/download)
 

@@ -15,7 +15,10 @@ public class CPHInline
             return true;
         }
 
-        CPH.SendMessage($"Thank you for following, {user}! You are now my favourite follower!");
+        // Change this message to whatever you want to say when someone follows your channel.
+        string message = $"Thank you for following, {user}! You are now my favourite follower!";
+        
+        CPH.SendMessage(message, true, true);
         return true;
     }
 }
